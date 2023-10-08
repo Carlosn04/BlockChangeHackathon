@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import jobOffers from '../db/jobOffers.json';
 import Modal from '../components/Modal/Modal'
 import { useState } from 'react';
+import '../components/Modal/Modal.css'
 
 import { getCertificatesByAdd } from '../utils/getCertificates';
 
@@ -38,6 +39,7 @@ function Offer() {
 
     const handleCloseModal = () => {
         setModalOpen(false);
+            window.location.href = "/";  // Redirects to the homepage
     }
 
     return (
@@ -75,7 +77,7 @@ function Offer() {
             <Modal show={isModalOpen} onClose={handleCloseModal}>
                 <h4>Success!</h4>
                 <p>Your application has been submitted.</p>
-                <button onClick={handleCloseModal}>Close</button>
+
             </Modal>
             <Link to="/" className="back-to-listings">
                 <i className="fas fa-arrow-left"></i> Back to Listings
