@@ -66,5 +66,29 @@
                 "0x7f9279b24d1c36fa3e517041fdb4e8788dc63d25"
             ]
         }
+    },
+    {
+        "id": 4,
+        "title": "Master of the universe",
+        "salary": "$700,000 - $850,000",
+        "description": "In search of a Master of the Universe with strong experience being the master.",
+        "requiredLanguage": "Java",
+        "createdTimestamp": "2023-10-01T10:00:00Z",
+        "contractType": "Full-time",
+        "city": "New York",
+        "presence": "Remote",
+        "companyName": "TechCorp",
+        "companyURL": "https://techcorp.example.com",
+        "companyLogo": "",
+        "requiredCertificates": {
+            "Polygon": [
+                "0x38d2ea6cfdd27c3b27dd7f834871ca91f40d0693",
+                "0x60576a64851c5b42e8c57e3e4a5cf3cf4eeb2ed6"
+            ],
+            "Optimism": [
+                "0x7f9279b24d1c36fa3e517041fdb4e8788dc63d25",
+                "I am the damn master"
+            ]
+        }
     }
 ]

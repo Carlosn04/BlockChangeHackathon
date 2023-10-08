@@ -38,7 +38,6 @@ export default function Home() {
 
     }, [address]);
 
-    const [localFilter, setLocalFilter] = useState("");
     const { filter, setFilter } = useUserContext();
     let filteredOffers;
 
